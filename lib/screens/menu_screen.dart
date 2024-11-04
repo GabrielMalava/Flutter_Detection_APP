@@ -46,7 +46,7 @@ class MenuScreen extends StatelessWidget {
           ],
         ),
       ),
-      body: ListView( // Substitua SingleChildScrollView por ListView
+      body: ListView( 
         padding: const EdgeInsets.all(16.0),
         children: [
           Text(

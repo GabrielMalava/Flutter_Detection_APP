@@ -1,21 +1,18 @@
 import 'package:flutter/material.dart';
-
 class IpDetectionScreen extends StatefulWidget {
   @override
   _IpDetectionScreenState createState() => _IpDetectionScreenState();
 }
-
 class _IpDetectionScreenState extends State<IpDetectionScreen> {
   String? ipResult;
 
   void checkIp() {
-    // Simulação de verificação de IP
+    
     setState(() {
-      // Aqui você pode adicionar lógica de verificação de IP se necessário
-      ipResult = 'IP detectado: ${DateTime.now().microsecondsSinceEpoch}'; // Simulando um IP
+      
+      ipResult = 'IP detectado: ${DateTime.now().microsecondsSinceEpoch}'; 
     });
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

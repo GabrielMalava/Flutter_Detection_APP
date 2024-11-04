@@ -10,10 +10,10 @@ class _UrlDetectionScreenState extends State<UrlDetectionScreen> {
   String? urlResult;
 
   void checkUrl() {
-    // Simula a verificação de URL
+
     setState(() {
       if (urlToCheck != null && urlToCheck!.isNotEmpty) {
-        // Simulação de verificação
+
         if (urlToCheck!.contains('malicious')) {
           urlResult = 'Link potencialmente malicioso: $urlToCheck';
         } else if (!urlToCheck!.startsWith('https://')) {
