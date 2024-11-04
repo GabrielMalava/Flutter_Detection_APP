@@ -11,7 +11,6 @@ void main() {
     await tester.tap(find.text('Verificar URL'));
     await tester.pump();
 
-    // Verifica se o resultado aparece com a mensagem correta
     expect(find.text('Link potencialmente malicioso: http://malicious.com'), findsOneWidget);
   });
 }
