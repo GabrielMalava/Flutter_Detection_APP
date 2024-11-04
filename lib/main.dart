@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mobile/screens/menu_screen.dart';
+import 'package:flutter_application_1/screens/menu_screen.dart';
+import 'screens/menu_screen.dart';
+
 
 
 void main() {
